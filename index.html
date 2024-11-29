@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medical Diagnosis Assistant</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Medical Diagnosis Assistant</h1>
+      <form id="symptomForm">
+        <h2>Select Your Symptoms</h2>
+        <div class="symptom-checkbox">
+          <label>
+            <input type="checkbox" name="symptoms" value="fever" /> Fever
+          </label>
+          <label>
+            <input type="checkbox" name="symptoms" value="cough" /> Cough
+          </label>
+          <label>
+            <input type="checkbox" name="symptoms" value="sore_throat" /> Sore
+            Throat
+          </label>
+          <label>
+            <input type="checkbox" name="symptoms" value="muscle_aches" />
+            Muscle Aches
+          </label>
+          <label>
+            <input type="checkbox" name="symptoms" value="fatigue" /> Fatigue
+          </label>
+          <label>
+            <input type="checkbox" name="symptoms" value="runny_nose" /> Runny
+            Nose
+          </label>
+          <label>
+            <input type="checkbox" name="symptoms" value="headache" /> Headache
+          </label>
+          <label>
+            <input type="checkbox" name="symptoms" value="itchy_eyes" /> Itchy
+            Eyes
+          </label>
+          <label>
+            <input type="checkbox" name="symptoms" value="sneezing" /> Sneezing
+          </label>
+          <label>
+            <input type="checkbox" name="symptoms" value="loss_of_taste" /> 
+            Loss of Taste
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              name="symptoms"
+              value="difficulty_breathing"
+            />
+            Difficulty Breathing
+          </label>
+        </div>
+        <button type="submit">Diagnose</button>
+      </form>
+      <div id="result" class="result"></div>
+    </div>
+    <footer>@chemist</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
