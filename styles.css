@@ -29,6 +29,13 @@ h2 {
     margin-bottom: 20px;
 }
 
+.image{
+    width: 10%;
+    height: 10%;
+    float: right;
+    margin-left: 10px;
+}
+
 label {
     display: block;
     margin: 10px 0;
